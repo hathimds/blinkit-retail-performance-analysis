@@ -1,62 +1,42 @@
-# Retail Sales Performance Analysis – BlinkIT
+# Blinkit Sales Performance Analysis
 
-## 📌 Project Overview
-This project analyzes BlinkIT’s retail sales data to identify the key
-attributes of high-performing outlets and uncover actionable insights
-to support expansion and inventory optimization decisions.
+## Overview
+This project analyzes Blinkit’s retail sales data to identify structural drivers of revenue performance across outlet formats, locations, and product categories. The focus is on moving beyond aggregate KPIs to understand which outlet and product characteristics consistently correlate with stronger sales outcomes.
 
-Rather than focusing only on dashboards, this case study emphasizes
-business understanding, KPI definition, and insight-driven strategy.
+The analysis is intended to support:
+- Outlet format strategy
+- Inventory and assortment planning
+- Expansion and optimization decisions
 
----
+## Business Questions
+- Which outlet sizes and formats generate the strongest revenue?
+- How does performance vary across location tiers?
+- Are sales driven by pricing power or purchase frequency?
+- Which product categories contribute disproportionately to revenue?
 
-## 🎯 Business Objectives
-- Identify high-performing outlet locations, sizes, and types
-- Analyze product categories contributing most to total sales
-- Understand customer preferences based on sales patterns
-- Provide data-backed recommendations for scalable growth
+## Key Insights
+- Revenue is primarily driven by high-frequency staple products, not premium pricing.
+- Medium-sized outlets outperform both small and large formats.
+- Tier 3 locations generate stronger sales than Tier 1 locations, challenging urban-bias assumptions.
+- A small number of outlet types and product categories account for the majority of revenue.
+- Factors such as outlet age and item visibility show limited impact on sales outcomes.
 
----
+## Deliverables
+- Power BI Dashboard – Interactive sales performance analysis
+- Case Deck (case_deck.pdf) – Executive-style presentation with insights and recommendations
+- Infographic (infographic.png) – One-page visual summary for quick review
+- Written Appendix (appendix.pdf) – Detailed written analysis and assumptions
+- Dataset (data.xlsx) – Source data used for analysis
 
-## 📊 Key KPIs
-- Total Sales
-- Average Sales per Item
-- Number of Items Sold
-- Average Customer Rating
+## Tools Used
+- Power BI
+- Excel
 
----
+## Scope & Assumptions
+- Analysis is based on historical transactional sales data only.
+- No cost, margin, or marketing variables are included.
+- Findings reflect correlations, not causal guarantees.
 
-## 🔍 Key Insights
-- Tier 3 outlets generate the highest total sales, indicating strong
-  demand in semi-urban regions.
-- Medium-sized outlets deliver optimal revenue efficiency.
-- Supermarket Type 1 is the most scalable outlet format.
-- Fruits, Snacks, and Low-Fat products drive the majority of revenue.
 
----
-
-## 🛠 Tools & Technologies
-- Power BI (Dashboarding & DAX)
-- Microsoft Excel (Data Cleaning & Preparation)
-
----
-
-## 📁 Repository Structure
-- `data/` – Raw dataset
-- `dashboard/` – Power BI file
-- `report/` – Final presentation (PDF)
-- `images/` – Dashboard visuals
-
----
-
-## ⚠️ Limitations
-- No time-series sales data
-- No customer-level transactions
-- Ratings are subjective
-
----
-
-## 📈 Outcome
-The project delivers a clear blueprint for identifying
-high-performing retail outlets and demonstrates an end-to-end
-data analysis workflow aligned with real business decision-making.
+## Notes
+This project emphasizes decision-oriented analysis over visual complexity. Insights are framed to reflect how an analyst would communicate findings to business stakeholders.
