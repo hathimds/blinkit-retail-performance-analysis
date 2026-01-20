@@ -1,42 +1,32 @@
-# Blinkit Sales Performance Analysis
+# Blinkit Sales Analysis | Power BI
 
 ## Overview
-This project analyzes Blinkit’s retail sales data to identify structural drivers of revenue performance across outlet formats, locations, and product categories. The focus is on moving beyond aggregate KPIs to understand which outlet and product characteristics consistently correlate with stronger sales outcomes.
+This project analyzes retail sales data using **Power BI** to evaluate sales performance across product categories, outlet types, outlet sizes, and location tiers. The analysis focuses on **descriptive analytics** using KPIs and interactive visualizations.
 
-The analysis is intended to support:
-- Outlet format strategy
-- Inventory and assortment planning
-- Expansion and optimization decisions
+## Objectives
+- Analyze overall sales performance
+- Compare sales across product categories and fat content
+- Evaluate outlet performance by type, size, and location
+- Identify sales trends based on outlet establishment year
 
-## Business Questions
-- Which outlet sizes and formats generate the strongest revenue?
-- How does performance vary across location tiers?
-- Are sales driven by pricing power or purchase frequency?
-- Which product categories contribute disproportionately to revenue?
+## Key Metrics
+- Total Sales  
+- Number of Items Sold  
+- Average Sales per Item  
+- Average Rating  
 
-## Key Insights
-- Revenue is primarily driven by high-frequency staple products, not premium pricing.
-- Medium-sized outlets outperform both small and large formats.
-- Tier 3 locations generate stronger sales than Tier 1 locations, challenging urban-bias assumptions.
-- A small number of outlet types and product categories account for the majority of revenue.
-- Factors such as outlet age and item visibility show limited impact on sales outcomes.
-
-## Deliverables
-- Power BI Dashboard – Interactive sales performance analysis
-- Case Deck (case_deck.pdf) – Executive-style presentation with insights and recommendations
-- Infographic (infographic.png) – One-page visual summary for quick review
-- Written Appendix (appendix.pdf) – Detailed written analysis and assumptions
-- Dataset (data.xlsx) – Source data used for analysis
+## Dashboard Features
+- Interactive slicers for dynamic filtering
+- KPI cards for high-level insights
+- Comparative charts and tables
+- Time-based trend analysis
 
 ## Tools Used
-- Power BI
-- Excel
+- **Power BI**
 
-## Scope & Assumptions
-- Analysis is based on historical transactional sales data only.
-- No cost, margin, or marketing variables are included.
-- Findings reflect correlations, not causal guarantees.
-
+## Project Assets
+- Interactive Power BI Dashboard  
+- Analytical Report (PDF)
 
 ## Notes
-This project emphasizes decision-oriented analysis over visual complexity. Insights are framed to reflect how an analyst would communicate findings to business stakeholders.
+This project is limited to descriptive analysis and strictly reflects insights derived from the dataset without external assumptions or predictions.
