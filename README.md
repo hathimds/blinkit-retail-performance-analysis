@@ -1,49 +1,68 @@
-# Blinkit Sales Performance Analysis
+# Blinkit Sales Analysis Project 📊
 
-## Project Overview
-This project analyzes sales performance data from Blinkit to identify
-key revenue drivers across outlet formats and geographic locations.
-The goal is to support data-driven decisions related to expansion,
-outlet optimization, and strategic focus.
+Comprehensive Power BI Dashboard Analysis
 
-## Business Question
-Which outlet and product segments contribute most to total sales,
-and where should optimization or expansion be prioritized?
+---
 
-## Dataset
-- Source: Blinkit sales dataset
-- Scope: Item-level sales aggregated across outlets
-- Key dimensions:
-  - Item Type
-  - Fat Content
-  - Outlet Type
-  - Outlet Size
-  - Outlet Location Tier
-  - Establishment Year
+## 📌 Project Overview
+This project leverages **Power BI** to analyze Blinkit’s retail sales dataset.  
+The goal was to identify key drivers of sales performance across outlet types, sizes, locations, and product categories, and present actionable insights through an interactive dashboard.
 
-## Key Insights
-- Outlet structure has a stronger influence on revenue than product categories
-- Tier 3 locations outperform Tier 1 and Tier 2 in total sales contribution
-- Supermarket Type 1 outlets dominate revenue and item volume
-- Medium-sized outlets show the best efficiency-to-revenue balance
-- Sales growth stabilized after 2018–2019, indicating operational maturity
+---
 
-## Strategic Recommendations
-- Prioritize expansion in Tier 3 locations
-- Scale high-performing Supermarket Type 1 outlets
-- Standardize medium-sized outlet formats
-- Treat product-level optimization as a supporting strategy
+## 📂 Data Scope
+- **Items Analyzed:** 8,523  
+- **Total Sales:** $1.20M  
+- **Average Sales:** $141  
+- **Average Rating:** 3.9  
 
-## Tools Used
-- Power BI (data modeling, visualization, analysis)
-- Excel (data inspection and preprocessing)
+---
 
-## Limitations
-- No customer-level behavioral data
-- No pricing, margin, or operational cost data
-- Analysis focuses on revenue contribution, not profitability
+## ⚙️ Data Preparation
+- Standardized item fat content categories (Low Fat, Regular).  
+- Normalized outlet tiers and sizes.  
+- Fixed inconsistencies and ensured data quality.  
 
-## Deliverables
-- Power BI dashboard
-- Final analytical report
-- Raw dataset
+---
+
+## 📊 Dashboard Design
+- **KPIs:** Total Sales, Avg Sales, No. of Items, Avg Rating.  
+- **Visuals:** Bar charts, line chart, pie charts, matrix view.  
+- **Interactivity:** Filters for outlet size, location, and item categories.  
+
+---
+
+## 🔑 Key Insights
+- **Fat Content:** Low Fat items drive ~65% of sales ($776K).  
+- **Item Types:** Fruits & Vegetables ($178K), Snacks ($175K), Household ($136K) are top contributors.  
+- **Outlet Size:** Medium outlets dominate ($508K).  
+- **Outlet Location:** Tier 3 outlets lead ($472K).  
+- **Outlet Type:** Supermarket Type1 generates ~65% of revenue ($787K).  
+- **Establishment Year:** 2018 outlets peak in performance ($205K).  
+
+---
+
+## 🚀 Business Impact
+- Focus on Low Fat items and top categories (Fruits, Snacks, Household).  
+- Expand medium‑sized outlets in Tier 3 locations for maximum ROI.  
+- Replicate success factors from 2018 outlets for future expansion.  
+
+---
+
+## 🛠️ Tools & Skills Demonstrated
+- Power BI (data modeling, DAX, interactive dashboards).  
+- Data cleaning & transformation (Excel/CSV).  
+- Business storytelling through visualization.  
+
+---
+
+## 🔮 Future Improvements
+- Predictive modeling for sales forecasting.  
+- Real‑time dashboard refresh with automated updates.  
+- Customer segmentation for deeper insights.  
+
+---
+
+## 👤 Author
+**Hathim Manaf**  
+Data Analyst | Business Intelligence Enthusiast  
