@@ -1,32 +1,49 @@
-# Blinkit Sales Analysis | Power BI
+# Blinkit Sales Performance Analysis
 
-## Overview
-This project analyzes retail sales data using **Power BI** to evaluate sales performance across product categories, outlet types, outlet sizes, and location tiers. The analysis focuses on **descriptive analytics** using KPIs and interactive visualizations.
+## Project Overview
+This project analyzes sales performance data from Blinkit to identify
+key revenue drivers across outlet formats and geographic locations.
+The goal is to support data-driven decisions related to expansion,
+outlet optimization, and strategic focus.
 
-## Objectives
-- Analyze overall sales performance
-- Compare sales across product categories and fat content
-- Evaluate outlet performance by type, size, and location
-- Identify sales trends based on outlet establishment year
+## Business Question
+Which outlet and product segments contribute most to total sales,
+and where should optimization or expansion be prioritized?
 
-## Key Metrics
-- Total Sales  
-- Number of Items Sold  
-- Average Sales per Item  
-- Average Rating  
+## Dataset
+- Source: Blinkit sales dataset
+- Scope: Item-level sales aggregated across outlets
+- Key dimensions:
+  - Item Type
+  - Fat Content
+  - Outlet Type
+  - Outlet Size
+  - Outlet Location Tier
+  - Establishment Year
 
-## Dashboard Features
-- Interactive slicers for dynamic filtering
-- KPI cards for high-level insights
-- Comparative charts and tables
-- Time-based trend analysis
+## Key Insights
+- Outlet structure has a stronger influence on revenue than product categories
+- Tier 3 locations outperform Tier 1 and Tier 2 in total sales contribution
+- Supermarket Type 1 outlets dominate revenue and item volume
+- Medium-sized outlets show the best efficiency-to-revenue balance
+- Sales growth stabilized after 2018–2019, indicating operational maturity
+
+## Strategic Recommendations
+- Prioritize expansion in Tier 3 locations
+- Scale high-performing Supermarket Type 1 outlets
+- Standardize medium-sized outlet formats
+- Treat product-level optimization as a supporting strategy
 
 ## Tools Used
-- **Power BI**
+- Power BI (data modeling, visualization, analysis)
+- Excel (data inspection and preprocessing)
 
-## Project Assets
-- Interactive Power BI Dashboard  
-- Analytical Report (PDF)
+## Limitations
+- No customer-level behavioral data
+- No pricing, margin, or operational cost data
+- Analysis focuses on revenue contribution, not profitability
 
-## Notes
-This project is limited to descriptive analysis and strictly reflects insights derived from the dataset without external assumptions or predictions.
+## Deliverables
+- Power BI dashboard
+- Final analytical report
+- Raw dataset
