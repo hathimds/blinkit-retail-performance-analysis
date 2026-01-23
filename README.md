@@ -36,7 +36,6 @@ Blinkit needs to understand which products, outlet types, and locations contribu
 - No real-time operational metrics.
 
 ## 📂 Files
-- Dashboard: `/dashboard/`
-- Report: `/report/`
-- Presentation: `/presentation/`
-- Dataset: `/dataset/`
+- Dashboard
+- Report
+- Dataset
