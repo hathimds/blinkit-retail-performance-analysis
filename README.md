@@ -1,41 +1,30 @@
-# Blinkit Sales Analysis (Power BI)
+# 📌 Blinkit Sales Insights (Power BI)
 
-## 📌 Project Overview
-This project analyzes Blinkit retail sales data to identify product performance, outlet segmentation, and sales trends using Power BI.
+## 📖 Overview  
+This project analyzes Blinkit’s sales performance using Power BI. The dashboard provides insights into sales trends, outlet performance, and product category performance across different locations and store types.
 
-## 🎯 Business Requirement
-Blinkit needs to understand which products, outlet types, and locations contribute the most to sales to optimize inventory planning and outlet strategy.
+## 🎯 Objective  
+To build an interactive Power BI dashboard that helps understand sales distribution, outlet performance, and product category contribution for better inventory and business planning.
 
-## 🛠 Tools Used
+## 📊 What I Did  
+- Cleaned and prepared the dataset using Power Query.  
+- Built a structured data model in Power BI.  
+- Designed an interactive dashboard with filters for outlet type, location tier, and item category.  
+- Analyzed sales performance by fat content, outlet size, and establishment year.  
+- Compared performance across different outlet types and locations.
+
+## 🛠️ Tools Used  
 - Power BI  
-- Excel / CSV  
+- Power Query  
+- DAX  
+- Excel  
 
-## 📊 Key Metrics
-- Total Sales: $1.20M  
-- Total Items Sold: 8,523  
-- Average Sales per Item: $141  
-- Average Rating: 3.9  
+## 🔍 Key Insights  
+- Fruits & Vegetables and Snack Foods were the top-performing categories.  
+- Low-fat products contributed around 65% of total sales.  
+- Medium-sized outlets generated the highest revenue.  
+- Tier-3 locations outperformed Tier-1 and Tier-2 locations.
 
-## 🔍 Key Insights
-- Fruits & Vegetables and Snack Foods are top revenue categories.
-- Low-fat products contribute ~64.6% of total sales.
-- Medium-sized outlets generate the highest revenue.
-- Tier 3 locations outperform Tier 1 and Tier 2.
-- Supermarket Type1 outlets contribute ~65.5% of total sales.
-- Sales peaked in 2016 and declined after 2018.
-
-## 📈 Recommendations
-- Focus inventory on top-performing categories.
-- Expand medium-sized outlets.
-- Target Tier 3 locations for expansion.
-- Strengthen Supermarket Type1 outlets.
-
-## ⚠️ Limitations
-- Dataset is simulated.
-- No customer demographics or profit data.
-- No real-time operational metrics.
-
-## 📂 Files
-- Dashboard
-- Report
-- Dataset
+## 🔗 Links  
+- [LinkedIn](https://linkedin.com/in/hathim-manaf)
+- [Portfolio]()
